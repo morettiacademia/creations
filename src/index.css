@@ -1,0 +1,48 @@
+:root {
+  --navy: #0f2a52;
+  --navy-dark: #081b36;
+  --navy-mid: #0b2145;
+  --yellow: #ffcb05;
+  --blue: #2aa9e0;
+  --cream: #fffbf2;
+  --white: #ffffff;
+
+  --font-head: 'Sora', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --section-py: clamp(56px, 9vw, 110px);
+  --section-px: clamp(20px, 6vw, 80px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--navy);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  color: var(--blue);
+}
+
+a:hover {
+  color: var(--yellow);
+}
