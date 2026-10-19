@@ -1,5 +1,5 @@
 import './App.css';
-import { CHECKOUT_URL } from './config';
+import { CHECKOUT_URL, CONNECTIONS_URL } from './config';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Pain from './components/Pain';
@@ -14,6 +14,7 @@ import Mentors from './components/Mentors';
 import MethodImpacto from './components/MethodImpacto';
 import CalendarSection from './components/CalendarSection';
 import Deliverables from './components/Deliverables';
+import Connections from './components/Connections';
 import Offer from './components/Offer';
 import Faq from './components/Faq';
 import CtaFinal from './components/CtaFinal';
@@ -26,6 +27,10 @@ function scrollToOffer() {
 
 function goToCheckout() {
   window.open(CHECKOUT_URL, '_blank');
+}
+
+function goToConnections() {
+  window.open(CONNECTIONS_URL, '_blank');
 }
 
 export default function App() {
@@ -46,6 +51,7 @@ export default function App() {
         <MethodImpacto />
         <CalendarSection />
         <Deliverables />
+        <Connections onCtaClick={goToConnections} />
         <Offer onCheckoutClick={goToCheckout} />
         <Faq />
         <CtaFinal onCheckoutClick={goToCheckout} />

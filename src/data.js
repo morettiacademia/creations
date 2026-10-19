@@ -158,6 +158,21 @@ export const offerFeatures = [
   'CALENDÁRIO DE OPORTUNIDADES',
 ];
 
+export const connectionsFacts = [
+  '6 A 14 DE NOVEMBRO DE 2026',
+  'GRUPO RESTRITO DE 15 AGÊNCIAS',
+  'EXCLUSIVO PARA ALUNOS DO CREATIONS',
+];
+
+export const connectionsHighlights = [
+  'Parques Disney e Universal',
+  'Epic Universe',
+  'SeaWorld',
+  'Festas de Natal',
+  'Compras',
+  'Hotéis e restaurantes',
+];
+
 export const faqData = [
   {
     question: 'Preciso ter feito o AGIR para participar?',
