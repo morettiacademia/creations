@@ -1,3 +1,4 @@
+import logoConections from '../assets/logo-conections.webp';
 import { connectionsFacts, connectionsHighlights } from '../data';
 
 export default function Connections({ onCtaClick }) {
@@ -5,9 +6,10 @@ export default function Connections({ onCtaClick }) {
     <section className="connections">
       <div className="connections__inner">
         <span className="connections__badge">EXTENSÃO INTERNACIONAL CREATIONS</span>
-        <h2 className="connections__title">
-          CONNECTIONS — IMERSÃO INTERNACIONAL DE CRIAÇÃO DE CONTEÚDO EM <span className="connections__title-accent">ORLANDO</span>
+        <h2 className="connections__visually-hidden">
+          CONECTIONS — Imersão Internacional de Criação de Conteúdo em Orlando
         </h2>
+        <img className="connections__logo" src={logoConections} alt="CONECTIONS — Imersão de Conteúdo em Orlando" />
         <p className="connections__subhead">
           Conheça o destino, fortaleça sua presença digital e transforme experiências em conteúdo para sua agência.
         </p>
@@ -52,7 +54,7 @@ export default function Connections({ onCtaClick }) {
         </p>
 
         <button className="pill-btn pill-btn--yellow connections__cta" onClick={onCtaClick}>
-          QUERO PARTICIPAR DO CONNECTIONS
+          QUERO PARTICIPAR DO CONECTIONS
         </button>
       </div>
     </section>
