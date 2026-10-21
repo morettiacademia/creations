@@ -8,6 +8,10 @@ import cinderelaCasteloAzul from './assets/connections/cinderela-castelo-azul.jp
 import orlandoMagicBasketball from './assets/connections/orlando-magic-basketball.jpg';
 import toyStorySlinkyCoaster from './assets/connections/toy-story-slinky-coaster.jpg';
 import casteloTurquesa from './assets/connections/castelo-turquesa.jpg';
+import epcotPassport from './assets/connections/epcot-passport.jpg';
+import lanternaNoturna from './assets/connections/lanterna-noturna.jpg';
+import sabreDeLuz from './assets/connections/sabre-de-luz.jpg';
+import jurassicVelocicoaster from './assets/connections/jurassic-velocicoaster.jpg';
 
 // Real moments from past Orlando trips — reused across the site (CONECTIONS gallery,
 // marquee strip) so the page feels grounded in real content, not stock photos.
@@ -23,4 +27,8 @@ export const orlandoPhotos = [
   { src: orlandoMagicBasketball, alt: 'Visita à quadra do Orlando Magic Basketball' },
   { src: toyStorySlinkyCoaster, alt: 'Montanha-russa Slinky Dog Dash, na Toy Story Land' },
   { src: casteloTurquesa, alt: 'Pôr do sol no Castelo da Cinderela, no Magic Kingdom' },
+  { src: epcotPassport, alt: 'Com o passaporte do World Showcase em frente à Spaceship Earth, no EPCOT' },
+  { src: lanternaNoturna, alt: 'Momento noturno com lanterna temática em Orlando' },
+  { src: sabreDeLuz, alt: 'Com sabre de luz em Star Wars: Galaxy\'s Edge, no Hollywood Studios' },
+  { src: jurassicVelocicoaster, alt: 'Em frente à montanha-russa VelociCoaster, no Jurassic World' },
 ];
