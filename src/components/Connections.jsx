@@ -6,7 +6,6 @@ export default function Connections({ onCtaClick }) {
   return (
     <section className="connections">
       <div className="connections__inner">
-        <span className="connections__badge">EXTENSÃO INTERNACIONAL CREATIONS</span>
         <h2 className="connections__visually-hidden">
           CONECTIONS — Imersão Internacional de Criação de Conteúdo em Orlando
         </h2>
