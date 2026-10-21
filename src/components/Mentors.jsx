@@ -1,4 +1,4 @@
-import monaPhoto from '../assets/mona.png';
+import monaPhoto from '../assets/mona.jpg';
 import camilaPhoto from '../assets/camila.jpg';
 
 export default function Mentors({ onCtaClick }) {
