@@ -20,7 +20,6 @@ import Offer from './components/Offer';
 import Faq from './components/Faq';
 import CtaFinal from './components/CtaFinal';
 import Footer from './components/Footer';
-import StickyMobileCta from './components/StickyMobileCta';
 
 function scrollToOffer() {
   document.getElementById('oferta')?.scrollIntoView({ block: 'start' });
@@ -59,7 +58,6 @@ export default function App() {
         <CtaFinal onCheckoutClick={goToCheckout} />
       </main>
       <Footer />
-      <StickyMobileCta onCtaClick={scrollToOffer} />
     </div>
   );
 }
