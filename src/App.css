@@ -1300,11 +1300,20 @@
   border: 0;
 }
 
-.connections__logo {
-  width: 100%;
-  max-width: 420px;
+.connections__logo-box {
+  display: inline-block;
+  background: #fff;
+  border-radius: 20px;
+  padding: clamp(16px, 2.6vw, 26px) clamp(24px, 4vw, 40px);
   margin: 0 auto 18px;
-  filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.35));
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.connections__logo {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
 }
 
 .connections__subhead {

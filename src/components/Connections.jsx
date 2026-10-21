@@ -10,7 +10,9 @@ export default function Connections({ onCtaClick }) {
         <h2 className="connections__visually-hidden">
           CONECTIONS — Imersão Internacional de Criação de Conteúdo em Orlando
         </h2>
-        <img className="connections__logo" src={logoConections} alt="CONECTIONS — Imersão de Conteúdo em Orlando" />
+        <div className="connections__logo-box">
+          <img className="connections__logo" src={logoConections} alt="CONECTIONS — Imersão de Conteúdo em Orlando" />
+        </div>
         <p className="connections__subhead">
           Conheça o destino, fortaleça sua presença digital e transforme experiências em conteúdo para sua agência.
         </p>
