@@ -2,6 +2,7 @@ import './App.css';
 import { CHECKOUT_URL, CONNECTIONS_URL } from './config';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import PhotoMarquee from './components/PhotoMarquee';
 import Pain from './components/Pain';
 import Repositioning from './components/Repositioning';
 import Presentation from './components/Presentation';
@@ -39,6 +40,7 @@ export default function App() {
       <Header onCtaClick={scrollToOffer} />
       <main>
         <Hero onCtaClick={scrollToOffer} />
+        <PhotoMarquee />
         <Pain />
         <Repositioning />
         <Presentation />
