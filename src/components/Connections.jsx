@@ -1,5 +1,19 @@
 import logoConections from '../assets/logo-conections.webp';
+import universalGlobe from '../assets/connections/universal-globe.jpg';
+import krustyland from '../assets/connections/krustyland.jpg';
+import chefsDeFrance from '../assets/connections/chefs-de-france.jpg';
+import mickeyMinnieNatal from '../assets/connections/mickey-minnie-natal.jpg';
+import disneylandTinkerbell from '../assets/connections/disneyland-tinkerbell.jpg';
 import { connectionsFacts, connectionsHighlights } from '../data';
+
+// Real moments from past Orlando trips — more get appended here as they come in.
+const galleryPhotos = [
+  { src: universalGlobe, alt: 'Agente de viagens no globo do Universal Studios Orlando' },
+  { src: krustyland, alt: 'Área temática Krustyland, dos Simpsons, no Universal Studios' },
+  { src: chefsDeFrance, alt: 'Cardápio do restaurante Chefs de France, na França do EPCOT' },
+  { src: mickeyMinnieNatal, alt: 'Encontro com Mickey e Minnie fantasiados para o Natal no Magic Kingdom' },
+  { src: disneylandTinkerbell, alt: 'Momento com a Sininho em frente ao castelo da Disney' },
+];
 
 export default function Connections({ onCtaClick }) {
   return (
@@ -31,6 +45,12 @@ export default function Connections({ onCtaClick }) {
           orientação para captar fotos e vídeos com intenção, contar histórias e apresentar experiências que
           despertem o desejo de viajar.
         </p>
+
+        <div className="connections__gallery">
+          {galleryPhotos.map((photo) => (
+            <img className="connections__gallery-photo" src={photo.src} alt={photo.alt} key={photo.src} loading="lazy" />
+          ))}
+        </div>
 
         <div className="connections__highlights">
           {connectionsHighlights.map((h) => (

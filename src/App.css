@@ -1327,6 +1327,21 @@
   margin-top: -6px;
 }
 
+.connections__gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  margin-bottom: 26px;
+}
+
+.connections__gallery-photo {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
 .connections__highlights {
   display: flex;
   flex-wrap: wrap;
