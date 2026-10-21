@@ -1266,6 +1266,44 @@
   font-size: clamp(14px, 1.6vw, 17px);
 }
 
+/* ---------- connections intro divider ---------- */
+.connections-intro {
+  background: var(--yellow);
+  padding: clamp(36px, 6vw, 56px) var(--section-px);
+  text-align: center;
+}
+
+.connections-intro__inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.connections-intro__eyebrow {
+  display: inline-block;
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: var(--navy);
+  margin-bottom: 12px;
+}
+
+.connections-intro__title {
+  font-family: var(--font-head);
+  font-weight: 800;
+  color: var(--navy);
+  font-size: clamp(22px, 3.2vw, 32px);
+  line-height: 1.25;
+  margin: 0 0 12px;
+}
+
+.connections-intro__text {
+  color: rgba(15, 42, 82, 0.75);
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
 /* ---------- connections ---------- */
 .connections {
   padding: var(--section-py) var(--section-px);

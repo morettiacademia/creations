@@ -15,8 +15,9 @@ import Mentors from './components/Mentors';
 import MethodImpacto from './components/MethodImpacto';
 import CalendarSection from './components/CalendarSection';
 import Deliverables from './components/Deliverables';
-import Connections from './components/Connections';
 import Offer from './components/Offer';
+import ConnectionsIntro from './components/ConnectionsIntro';
+import Connections from './components/Connections';
 import Faq from './components/Faq';
 import CtaFinal from './components/CtaFinal';
 import Footer from './components/Footer';
@@ -52,8 +53,9 @@ export default function App() {
         <MethodImpacto />
         <CalendarSection />
         <Deliverables />
-        <Connections onCtaClick={goToConnections} />
         <Offer onCheckoutClick={goToCheckout} />
+        <ConnectionsIntro />
+        <Connections onCtaClick={goToConnections} />
         <Faq />
         <CtaFinal onCheckoutClick={goToCheckout} />
       </main>
